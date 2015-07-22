@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
 .clear {
 	clear:both;
@@ -17,7 +17,8 @@
 .links a{
 	border-bottom: 1px solid #dfdfdf;
 	color:black;
-	font-family: 'arconregular', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	font-size: 25px;
 }
 
@@ -34,5 +35,21 @@ font-size: 48px;
 }
 
 h2 {
-font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
 }
+
+.next-quote {
+	color: #f84342;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.footer-blurb {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 10px;
+}
+
