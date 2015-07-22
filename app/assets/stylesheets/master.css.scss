@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 .clear {
 	clear:both;
 }
@@ -13,9 +15,10 @@
 }
 
 .links a{
-	color:black;
-	font-size: 25px;
 	border-bottom: 1px solid #dfdfdf;
+	color:black;
+	font-family: 'arconregular', sans-serif;
+	font-size: 25px;
 }
 
 header {
@@ -23,4 +26,13 @@ header {
 }
 hr {
 	clear:both;
+}
+
+h1 {
+font-family: 'arconregular', sans-serif;
+font-size: 48px;
+}
+
+h2 {
+font-family: 'Oxygen', sans-serif;
 }
