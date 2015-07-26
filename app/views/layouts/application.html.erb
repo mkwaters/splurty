@@ -8,6 +8,7 @@
 </head>
 <body>
 	<header>
+		<%= link_to root_path do %>
 		<div class=" col-xs-3 circle">
 		  <br />
 		  JUST
@@ -16,11 +17,12 @@
 		  <br />
 		  YES
 		</div>
+		<% end %>
 		<div class="col-xs-4 slogan">
 		A repo for wild ideas since 2015.
 		</div>
 		<div class="col-xs-5 links">
-			<%= link_to 'Contribute', '#' %>
+			<%= link_to 'Contribute', new_quote_path %>
 			<%= link_to 'About', '#' %>
 		</div>
 	</header>
@@ -34,7 +36,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="col-xs-6">
-				<%= link_to "Give me another idea!", "#", :class => 'next-quote' %>
+				<%= link_to "Give me another idea!", root_path, :class => 'next-quote' %>
 			</div>
 			<div class="col-xs-6 footer-blurb">
 				Proudly hacked in Boston by <a href="https://github.com/mkwaters">Mikaila Waters</a>
