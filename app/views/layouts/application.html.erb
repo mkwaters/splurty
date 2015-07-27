@@ -14,11 +14,12 @@
 				<br />JUST<br />SAY<br />YES
 			</div>
 		<% end %>
-		<div class="col-xs-4 slogan">
+		<div class="col-xs-4 hidden-xs slogan">
 			A repo for wild ideas since 2015.
 		</div>
-		<div class="col-xs-5 links">
+		<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
 			<%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
+			&nbsp;&nbsp;
 			<%= link_to 'About', about_path %>
 		</div>
 	</header>
@@ -33,8 +34,9 @@
         		</div>
       			<%= simple_form_for Quote.new do |f| %>
 	        		<div class="modal-body">
-							<%= f.input :saying %>
-							<%= f.input :author %>
+							<%= f.input :saying, :label => "What's your next big idea?", :placeholder => "Sparkle Suds - Dress loud." %>
+							<br />
+							<%= f.input :author, :label => "Who's great idea is this?", :placeholder => "Tom Haverford" %>
 							<br />
 	       			</div>
 
@@ -61,10 +63,10 @@
 
 	<div class="footer">
 		<div class="container">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-sm-6">
 				<%= link_to "Give me another idea!", root_path, :class => 'next-quote' %>
 			</div>
-			<div class="col-xs-6 footer-blurb">
+			<div class="col-xs-12 col-sm-6 footer-blurb">
 				Proudly hacked in Boston by <a href="https://github.com/mkwaters">Mikaila Waters</a>
 			</div>
 		</div>
