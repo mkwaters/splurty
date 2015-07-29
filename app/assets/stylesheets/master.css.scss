@@ -37,6 +37,12 @@ font-family: 'arconregular', sans-serif;
 font-size: 48px;
 }
 
+@media (max-width: 750px) {
+	h1 {
+		font-size: 32px;
+	}
+}
+
 h2 {
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
